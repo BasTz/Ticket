@@ -1,11 +1,8 @@
 package myapp.ticket.Showtime;
 
-import myapp.ticket.Movie.Movie;
-import myapp.ticket.Theater.Theater;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import javax.xml.ws.Action;
 import java.util.List;
 
 @RestController
@@ -20,8 +17,8 @@ public class ShowtimeController {
     }
 
     @RequestMapping(value = "/showtime", method = RequestMethod.POST)
-    public void AddShowtime(@RequestBody Showtime showtime){
-        showtimeService.AddShowtime(showtime);
+    public String AddShowtime(@RequestBody Showtime showtime){
+        return showtimeService.AddShowtime(showtime);
     }
 
     @RequestMapping(value="/showtime/{id}", method = RequestMethod.PUT)
@@ -32,5 +29,10 @@ public class ShowtimeController {
     @RequestMapping(value = "/showtime/{id}", method = RequestMethod.DELETE)
     public void DeleteShowtime(@PathVariable int id) {
         showtimeService.DeleteShowtime(id);
+    }
+
+    @RequestMapping(value = "/showtimebymovie/{id}", method = RequestMethod.GET)
+    public List<Showtime> ShowtimeByMovieId(@PathVariable int id){
+        return showtimeService.ShowtimeByMovieId(id);
     }
 }

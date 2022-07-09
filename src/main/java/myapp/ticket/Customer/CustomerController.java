@@ -1,6 +1,7 @@
 package myapp.ticket.Customer;
 
 import myapp.ticket.Movie.Movie;
+import myapp.ticket.Showtime.Showtime;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -18,8 +19,8 @@ public class CustomerController {
     }
 
     @RequestMapping(value = "/customer", method = RequestMethod.POST)
-    public void AddCustomer(@RequestBody Customer customer){
-        customerService.AddCustomer(customer);
+    public String AddCustomer(@RequestBody Customer customer){
+        return customerService.AddCustomer(customer);
     }
 
     @RequestMapping(value="/customer/{id}", method = RequestMethod.PUT)
@@ -30,5 +31,10 @@ public class CustomerController {
     @RequestMapping(value = "/customer/{id}", method = RequestMethod.DELETE)
     public void DeleteCustomer(@PathVariable int id) {
         customerService.DeleteCustomer(id);
+    }
+
+    @RequestMapping(value = "/customerbyshowtime/{id}", method = RequestMethod.GET)
+    public List<Customer> CustomerByShowtimeId(@PathVariable int id){
+        return customerService.CustomerByShowtimeId(id);
     }
 }
