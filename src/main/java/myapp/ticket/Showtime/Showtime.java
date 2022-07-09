@@ -17,21 +17,21 @@ public class Showtime {
     private int id;
 
     @ManyToOne
-    private Theater theator;
+    private Theater theater;
 
     @ManyToOne
     private Movie movie;
 
 
-    private Date datatime;
+    private Date datetime;
 
     public Showtime() {
     }
 
-    public Showtime(int id, Theater theator, Movie movie, Date datatime) {
+    public Showtime(int id, Theater theater, Movie movie, Date datetime) {
         this.id = id;
-        this.theator = theator;
+        this.theater = theater;
         this.movie = movie;
-        this.datatime = datatime;
+        this.datetime = datetime;
     }
 }

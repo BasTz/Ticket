@@ -3,10 +3,7 @@ package myapp.ticket.Theater;
 import myapp.ticket.Movie.Movie;
 import myapp.ticket.Movie.MovieService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -23,5 +20,15 @@ public class TheaterController {
     @RequestMapping(value = "/theater", method = RequestMethod.POST)
     public void AddTheater(@RequestBody Theater theater){
         theaterService.AddTheater(theater);
+    }
+
+    @RequestMapping(value="/theater/{id}", method = RequestMethod.PUT)
+    public void UpdateTheater(@PathVariable int id, @RequestBody Theater theater) {
+        theaterService.UpdateTheater(id, theater);
+    }
+
+    @RequestMapping(value = "/theater/{id}", method = RequestMethod.DELETE)
+    public void DeleteTheater(@PathVariable int id) {
+        theaterService.DeleteTheater(id);
     }
 }

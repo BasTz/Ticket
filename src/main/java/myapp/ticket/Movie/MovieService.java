@@ -1,5 +1,8 @@
 package myapp.ticket.Movie;
 
+import myapp.ticket.Example;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -9,6 +12,7 @@ import java.util.List;
 @Service
 public class MovieService {
 
+    private static final Logger logger = LoggerFactory.getLogger(Example.class);
     @Autowired
     private MovieRepository movieRepository;
 
@@ -24,5 +28,17 @@ public class MovieService {
 
     public void AddMovie(Movie movies) {
         movieRepository.save(movies);
+    }
+
+    public void UpdateMovie(int id, Movie movies) {
+        Movie myMovies = movieRepository.findById(id);
+        myMovies.setName(movies.getName());
+        movieRepository.save(myMovies);
+        logger.info("Update : {}",myMovies);
+    }
+
+    public void DeleteMovie(int id) {
+        movieRepository.deleteById(id);
+        logger.info("Delete : Movie Id = {}",id);
     }
 }

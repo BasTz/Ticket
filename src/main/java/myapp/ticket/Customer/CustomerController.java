@@ -2,10 +2,7 @@ package myapp.ticket.Customer;
 
 import myapp.ticket.Movie.Movie;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -23,5 +20,15 @@ public class CustomerController {
     @RequestMapping(value = "/customer", method = RequestMethod.POST)
     public void AddCustomer(@RequestBody Customer customer){
         customerService.AddCustomer(customer);
+    }
+
+    @RequestMapping(value="/customer/{id}", method = RequestMethod.PUT)
+    public void UpdateCustomer(@PathVariable int id, @RequestBody Customer customer) {
+        customerService.UpdateCustomer(id, customer);
+    }
+
+    @RequestMapping(value = "/customer/{id}", method = RequestMethod.DELETE)
+    public void DeleteCustomer(@PathVariable int id) {
+        customerService.DeleteCustomer(id);
     }
 }
