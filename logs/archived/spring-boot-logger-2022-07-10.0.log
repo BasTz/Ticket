@@ -1,0 +1,290 @@
+2022-07-10 00:59:54,130 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 1.8.0_202 on BasTz with PID 3040 (C:\Users\BasTz\IdeaProjects\Ticket\target\classes started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 00:59:54,134 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 01:00:00,072 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 6.542 seconds (JVM running for 8.094)
+2022-07-10 01:00:48,637 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 1.8.0_202 on BasTz with PID 18196 (C:\Users\BasTz\IdeaProjects\Ticket\target\classes started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 01:00:48,642 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 01:00:48,644 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 01:00:53,095 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 5.023 seconds (JVM running for 6.33)
+2022-07-10 01:01:23,464 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 1.8.0_202 on BasTz with PID 6704 (C:\Users\BasTz\IdeaProjects\Ticket\target\classes started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 01:01:23,469 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 01:01:23,470 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 01:01:29,421 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 6.757 seconds (JVM running for 10.316)
+2022-07-10 01:02:07,672 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 1.8.0_202 on BasTz with PID 16044 (C:\Users\BasTz\IdeaProjects\Ticket\target\classes started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 01:02:07,679 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 01:02:07,681 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 01:02:13,203 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 6.145 seconds (JVM running for 7.622)
+2022-07-10 01:02:28,866 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 1.8.0_202 on BasTz with PID 18288 (C:\Users\BasTz\IdeaProjects\Ticket\target\classes started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 01:02:28,871 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 01:02:28,872 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 01:02:32,815 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 4.514 seconds (JVM running for 5.943)
+2022-07-10 02:52:39,819 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 1.8.0_202 on BasTz with PID 17908 (C:\Users\BasTz\IdeaProjects\Ticket\target\classes started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 02:52:39,824 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 02:52:39,825 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 02:52:44,879 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 5.808 seconds (JVM running for 7.463)
+2022-07-10 03:24:54,537 INFO org.springframework.boot.StartupInfoLogger [main] Starting ShowtimeControllerTest using Java 1.8.0_202 on BasTz with PID 17964 (started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 03:24:54,541 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 03:24:54,548 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 03:25:11,180 INFO org.springframework.boot.StartupInfoLogger [main] Starting ShowtimeControllerTest using Java 1.8.0_202 on BasTz with PID 16340 (started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 03:25:11,184 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 03:25:11,186 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 03:25:17,003 INFO org.springframework.boot.StartupInfoLogger [main] Started ShowtimeControllerTest in 23.172 seconds (JVM running for 27.765)
+2022-07-10 03:25:32,150 INFO org.springframework.boot.StartupInfoLogger [main] Started ShowtimeControllerTest in 22.989 seconds (JVM running for 34.736)
+2022-07-10 03:25:52,631 INFO org.springframework.boot.StartupInfoLogger [main] Starting ShowtimeControllerTest using Java 1.8.0_202 on BasTz with PID 14712 (started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 03:25:52,633 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 03:25:52,635 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 03:26:03,122 INFO org.springframework.boot.StartupInfoLogger [main] Started ShowtimeControllerTest in 11.124 seconds (JVM running for 15.516)
+2022-07-10 03:27:05,865 INFO org.springframework.boot.StartupInfoLogger [main] Starting ShowtimeControllerTest using Java 1.8.0_202 on BasTz with PID 5492 (started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 03:27:05,867 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 03:27:05,869 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 03:27:14,260 INFO org.springframework.boot.StartupInfoLogger [main] Started ShowtimeControllerTest in 8.841 seconds (JVM running for 12.419)
+2022-07-10 03:27:46,014 INFO org.springframework.boot.StartupInfoLogger [main] Starting ShowtimeControllerTest using Java 1.8.0_202 on BasTz with PID 1340 (started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 03:27:46,015 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 03:27:46,017 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 03:27:55,016 INFO org.springframework.boot.StartupInfoLogger [main] Started ShowtimeControllerTest in 9.414 seconds (JVM running for 13.638)
+2022-07-10 03:29:00,950 INFO org.springframework.boot.StartupInfoLogger [main] Starting ShowtimeControllerTest using Java 1.8.0_202 on BasTz with PID 18748 (started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 03:29:00,952 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 03:29:00,954 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 03:29:10,841 INFO org.springframework.boot.StartupInfoLogger [main] Started ShowtimeControllerTest in 10.365 seconds (JVM running for 14.224)
+2022-07-10 03:31:47,942 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 1.8.0_202 on BasTz with PID 18504 (C:\Users\BasTz\IdeaProjects\Ticket\target\classes started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 03:31:47,946 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 03:31:47,947 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 03:31:52,598 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 5.206 seconds (JVM running for 7.11)
+2022-07-10 03:34:02,997 INFO org.springframework.boot.StartupInfoLogger [main] Starting ShowtimeControllerTest using Java 1.8.0_202 on BasTz with PID 17832 (started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 03:34:03,000 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 03:34:03,001 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 03:34:11,322 INFO org.springframework.boot.StartupInfoLogger [main] Started ShowtimeControllerTest in 8.829 seconds (JVM running for 12.69)
+2022-07-10 03:35:21,602 INFO org.springframework.boot.StartupInfoLogger [main] Starting ShowtimeControllerTest using Java 1.8.0_202 on BasTz with PID 17272 (started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 03:35:21,604 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 03:35:21,606 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 03:35:31,220 INFO org.springframework.boot.StartupInfoLogger [main] Started ShowtimeControllerTest in 10.116 seconds (JVM running for 14.084)
+2022-07-10 03:36:15,842 INFO org.springframework.boot.StartupInfoLogger [main] Starting ShowtimeControllerTest using Java 1.8.0_202 on BasTz with PID 9116 (started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 03:36:15,844 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 03:36:15,846 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 03:36:24,180 INFO org.springframework.boot.StartupInfoLogger [main] Started ShowtimeControllerTest in 8.786 seconds (JVM running for 12.049)
+2022-07-10 03:37:06,411 INFO org.springframework.boot.StartupInfoLogger [main] Starting ShowtimeControllerTest using Java 1.8.0_202 on BasTz with PID 16444 (started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 03:37:06,413 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 03:37:06,415 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 03:37:17,206 INFO org.springframework.boot.StartupInfoLogger [main] Started ShowtimeControllerTest in 11.833 seconds (JVM running for 17.359)
+2022-07-10 03:42:59,226 INFO org.springframework.boot.StartupInfoLogger [main] Starting ShowtimeControllerTest using Java 1.8.0_202 on BasTz with PID 18180 (started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 03:42:59,228 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 03:42:59,230 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 03:43:10,981 INFO org.springframework.boot.StartupInfoLogger [main] Started ShowtimeControllerTest in 12.562 seconds (JVM running for 17.471)
+2022-07-10 03:43:59,375 INFO org.springframework.boot.StartupInfoLogger [main] Starting ShowtimeControllerTest using Java 1.8.0_202 on BasTz with PID 3484 (started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 03:43:59,378 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 03:43:59,381 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 03:44:24,425 INFO org.springframework.boot.StartupInfoLogger [main] Started ShowtimeControllerTest in 25.867 seconds (JVM running for 34.166)
+2022-07-10 03:45:10,070 INFO org.springframework.boot.StartupInfoLogger [main] Starting ShowtimeControllerTest using Java 1.8.0_202 on BasTz with PID 19252 (started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 03:45:10,073 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 03:45:10,074 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 03:45:19,758 INFO org.springframework.boot.StartupInfoLogger [main] Started ShowtimeControllerTest in 10.291 seconds (JVM running for 14.61)
+2022-07-10 03:55:40,676 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 1.8.0_202 on BasTz with PID 18600 (C:\Users\BasTz\IdeaProjects\Ticket\target\classes started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 03:55:40,681 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 03:55:40,682 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 03:55:46,422 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 6.675 seconds (JVM running for 8.33)
+2022-07-10 03:55:54,195 DEBUG myapp.ticket.Showtime.ShowtimeController [http-nio-8080-exec-3] Showtime(id=0, theater=Theater(id=2, name=null), movie=Movie(id=2, name=null), datetime=Sun Jul 10 17:00:00 ICT 2022)
+2022-07-10 04:00:35,128 DEBUG myapp.ticket.Showtime.ShowtimeController [http-nio-8080-exec-6] Showtime(id=0, theater=Theater(id=2, name=null), movie=Movie(id=2, name=null), datetime=Sun Jul 10 17:00:00 ICT 2022)
+2022-07-10 04:01:11,284 INFO org.springframework.boot.StartupInfoLogger [main] Starting ShowtimeControllerTest using Java 1.8.0_202 on BasTz with PID 15364 (started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 04:01:11,286 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 04:01:11,288 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 04:01:20,155 INFO org.springframework.boot.StartupInfoLogger [main] Started ShowtimeControllerTest in 9.343 seconds (JVM running for 13.12)
+2022-07-10 04:01:31,588 DEBUG myapp.ticket.Showtime.ShowtimeController [http-nio-8080-exec-9] Showtime(id=0, theater=Theater(id=2, name=null), movie=Movie(id=2, name=null), datetime=Sun Jul 10 17:00:00 ICT 2022)
+2022-07-10 04:02:19,032 INFO org.springframework.boot.StartupInfoLogger [main] Starting ShowtimeControllerTest using Java 1.8.0_202 on BasTz with PID 3088 (started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 04:02:19,034 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 04:02:19,036 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 04:02:27,707 INFO org.springframework.boot.StartupInfoLogger [main] Started ShowtimeControllerTest in 9.17 seconds (JVM running for 12.552)
+2022-07-10 04:04:00,949 INFO org.springframework.boot.StartupInfoLogger [main] Starting ShowtimeControllerTest using Java 1.8.0_202 on BasTz with PID 14792 (started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 04:04:00,952 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 04:04:00,953 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 04:04:09,212 INFO org.springframework.boot.StartupInfoLogger [main] Started ShowtimeControllerTest in 8.705 seconds (JVM running for 12.087)
+2022-07-10 04:04:52,219 INFO org.springframework.boot.StartupInfoLogger [main] Starting ShowtimeControllerTest using Java 1.8.0_202 on BasTz with PID 14464 (started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 04:04:52,223 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 04:04:52,224 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 04:05:01,773 INFO org.springframework.boot.StartupInfoLogger [main] Started ShowtimeControllerTest in 10.084 seconds (JVM running for 13.81)
+2022-07-10 04:05:54,149 INFO org.springframework.boot.StartupInfoLogger [main] Starting ShowtimeControllerTest using Java 1.8.0_202 on BasTz with PID 18420 (started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 04:05:54,151 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 04:05:54,152 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 04:06:02,888 INFO org.springframework.boot.StartupInfoLogger [main] Started ShowtimeControllerTest in 9.167 seconds (JVM running for 12.466)
+2022-07-10 04:07:33,471 INFO org.springframework.boot.StartupInfoLogger [main] Starting ShowtimeControllerTest using Java 1.8.0_202 on BasTz with PID 15272 (started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 04:07:33,474 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 04:07:33,475 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 04:07:44,756 INFO org.springframework.boot.StartupInfoLogger [main] Started ShowtimeControllerTest in 11.814 seconds (JVM running for 16.368)
+2022-07-10 04:10:20,907 INFO org.springframework.boot.StartupInfoLogger [main] Starting ShowtimeControllerTest using Java 1.8.0_202 on BasTz with PID 15596 (started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 04:10:20,910 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 04:10:20,911 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 04:10:34,650 INFO org.springframework.boot.StartupInfoLogger [main] Started ShowtimeControllerTest in 14.157 seconds (JVM running for 17.49)
+2022-07-10 04:11:57,649 INFO org.springframework.boot.StartupInfoLogger [main] Starting ShowtimeControllerTest using Java 1.8.0_202 on BasTz with PID 18964 (started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 04:11:57,652 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 04:11:57,653 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 04:12:08,378 INFO org.springframework.boot.StartupInfoLogger [main] Started ShowtimeControllerTest in 11.23 seconds (JVM running for 15.189)
+2022-07-10 04:13:32,734 INFO org.springframework.boot.StartupInfoLogger [main] Starting ShowtimeControllerTest using Java 1.8.0_202 on BasTz with PID 18660 (started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 04:13:32,737 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 04:13:32,740 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 04:13:43,064 INFO org.springframework.boot.StartupInfoLogger [main] Started ShowtimeControllerTest in 10.91 seconds (JVM running for 15.856)
+2022-07-10 04:13:57,706 INFO org.springframework.boot.StartupInfoLogger [main] Starting ShowtimeControllerTest using Java 1.8.0_202 on BasTz with PID 17768 (started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 04:13:57,712 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 04:13:57,714 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 04:14:08,165 INFO org.springframework.boot.StartupInfoLogger [main] Started ShowtimeControllerTest in 10.931 seconds (JVM running for 15.156)
+2022-07-10 04:16:24,694 INFO org.springframework.boot.StartupInfoLogger [main] Starting ShowtimeControllerTest using Java 1.8.0_202 on BasTz with PID 5648 (started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 04:16:24,696 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 04:16:24,697 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 04:16:37,387 INFO org.springframework.boot.StartupInfoLogger [main] Started ShowtimeControllerTest in 13.345 seconds (JVM running for 16.494)
+2022-07-10 13:16:54,767 INFO org.springframework.boot.StartupInfoLogger [main] Starting ShowtimeControllerTest using Java 1.8.0_202 on BasTz with PID 816 (started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 13:16:54,770 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 13:16:54,771 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 13:17:03,878 INFO org.springframework.boot.StartupInfoLogger [main] Started ShowtimeControllerTest in 9.602 seconds (JVM running for 12.685)
+2022-07-10 13:17:23,452 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 1.8.0_202 on BasTz with PID 13040 (C:\Users\BasTz\IdeaProjects\Ticket\target\classes started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 13:17:23,456 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 13:17:23,457 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 13:17:27,255 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 4.411 seconds (JVM running for 5.768)
+2022-07-10 13:17:43,240 INFO org.springframework.boot.StartupInfoLogger [main] Starting ShowtimeControllerTest using Java 1.8.0_202 on BasTz with PID 4028 (started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 13:17:43,243 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 13:17:43,245 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 13:17:51,574 INFO org.springframework.boot.StartupInfoLogger [main] Started ShowtimeControllerTest in 8.798 seconds (JVM running for 12.261)
+2022-07-10 13:31:44,462 INFO org.springframework.boot.StartupInfoLogger [main] Starting ShowtimeControllerTest using Java 1.8.0_202 on BasTz with PID 11152 (started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 13:31:44,464 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 13:31:44,465 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 13:31:52,144 INFO org.springframework.boot.StartupInfoLogger [main] Started ShowtimeControllerTest in 8.125 seconds (JVM running for 11.3)
+2022-07-10 13:33:11,104 INFO org.springframework.boot.StartupInfoLogger [main] Starting ShowtimeControllerTest using Java 1.8.0_202 on BasTz with PID 7128 (started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 13:33:11,107 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 13:33:11,108 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 13:33:19,469 INFO org.springframework.boot.StartupInfoLogger [main] Started ShowtimeControllerTest in 8.845 seconds (JVM running for 11.964)
+2022-07-10 13:36:42,349 INFO org.springframework.boot.StartupInfoLogger [main] Starting ShowtimeControllerTest using Java 1.8.0_202 on BasTz with PID 10656 (started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 13:36:42,352 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 13:36:42,354 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 13:36:49,817 INFO org.springframework.boot.StartupInfoLogger [main] Started ShowtimeControllerTest in 7.909 seconds (JVM running for 10.912)
+2022-07-10 13:42:32,730 INFO org.springframework.boot.StartupInfoLogger [main] Starting ShowtimeControllerTest using Java 1.8.0_202 on BasTz with PID 15976 (started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 13:42:32,733 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 13:42:32,734 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 13:42:40,440 INFO org.springframework.boot.StartupInfoLogger [main] Started ShowtimeControllerTest in 8.182 seconds (JVM running for 11.195)
+2022-07-10 13:43:49,616 INFO org.springframework.boot.StartupInfoLogger [main] Starting ShowtimeControllerTest using Java 1.8.0_202 on BasTz with PID 1576 (started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 13:43:49,618 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 13:43:49,620 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 13:43:57,190 INFO org.springframework.boot.StartupInfoLogger [main] Started ShowtimeControllerTest in 8.052 seconds (JVM running for 11.121)
+2022-07-10 13:44:51,614 INFO org.springframework.boot.StartupInfoLogger [main] Starting ShowtimeControllerTest using Java 1.8.0_202 on BasTz with PID 7700 (started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 13:44:51,617 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 13:44:51,619 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 13:44:59,723 INFO org.springframework.boot.StartupInfoLogger [main] Started ShowtimeControllerTest in 8.57 seconds (JVM running for 11.618)
+2022-07-10 13:46:37,476 INFO org.springframework.boot.StartupInfoLogger [main] Starting ShowtimeControllerTest using Java 1.8.0_202 on BasTz with PID 13652 (started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 13:46:37,480 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 13:46:37,482 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 13:46:45,357 INFO org.springframework.boot.StartupInfoLogger [main] Started ShowtimeControllerTest in 8.373 seconds (JVM running for 11.398)
+2022-07-10 13:52:25,848 INFO org.springframework.boot.StartupInfoLogger [main] Starting ShowtimeControllerTest using Java 1.8.0_202 on BasTz with PID 10472 (started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 13:52:25,851 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 13:52:25,853 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 13:52:34,277 INFO org.springframework.boot.StartupInfoLogger [main] Started ShowtimeControllerTest in 8.935 seconds (JVM running for 12.579)
+2022-07-10 13:53:44,538 INFO org.springframework.boot.StartupInfoLogger [main] Starting ShowtimeControllerTest using Java 1.8.0_202 on BasTz with PID 8876 (started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 13:53:44,542 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 13:53:44,544 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 13:53:54,395 INFO org.springframework.boot.StartupInfoLogger [main] Started ShowtimeControllerTest in 10.376 seconds (JVM running for 13.616)
+2022-07-10 13:56:49,415 INFO org.springframework.boot.StartupInfoLogger [main] Starting ShowtimeControllerTest using Java 1.8.0_202 on BasTz with PID 3140 (started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 13:56:49,418 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 13:56:49,419 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 13:56:57,552 INFO org.springframework.boot.StartupInfoLogger [main] Started ShowtimeControllerTest in 8.643 seconds (JVM running for 11.64)
+2022-07-10 13:58:11,207 INFO org.springframework.boot.StartupInfoLogger [main] Starting ShowtimeControllerTest using Java 1.8.0_202 on BasTz with PID 5636 (started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 13:58:11,210 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 13:58:11,211 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 13:58:18,795 INFO org.springframework.boot.StartupInfoLogger [main] Started ShowtimeControllerTest in 8.054 seconds (JVM running for 10.889)
+2022-07-10 13:59:35,129 INFO org.springframework.boot.StartupInfoLogger [main] Starting ShowtimeControllerTest using Java 1.8.0_202 on BasTz with PID 9700 (started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 13:59:35,132 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 13:59:35,133 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 13:59:43,422 INFO org.springframework.boot.StartupInfoLogger [main] Started ShowtimeControllerTest in 8.829 seconds (JVM running for 12.511)
+2022-07-10 14:00:22,099 INFO org.springframework.boot.StartupInfoLogger [main] Starting ShowtimeControllerTest using Java 1.8.0_202 on BasTz with PID 3704 (started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 14:00:22,102 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 14:00:22,104 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 14:00:37,815 INFO org.springframework.boot.StartupInfoLogger [main] Started ShowtimeControllerTest in 16.181 seconds (JVM running for 19.231)
+2022-07-10 14:00:55,173 INFO org.springframework.boot.StartupInfoLogger [main] Starting ShowtimeControllerTest using Java 1.8.0_202 on BasTz with PID 5744 (started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 14:00:55,176 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 14:00:55,178 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 14:01:07,553 INFO org.springframework.boot.StartupInfoLogger [main] Started ShowtimeControllerTest in 13.027 seconds (JVM running for 16.137)
+2022-07-10 14:01:49,104 INFO org.springframework.boot.StartupInfoLogger [main] Starting ShowtimeControllerTest using Java 1.8.0_202 on BasTz with PID 2196 (started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 14:01:49,106 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 14:01:49,108 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 14:02:02,928 INFO org.springframework.boot.StartupInfoLogger [main] Started ShowtimeControllerTest in 14.271 seconds (JVM running for 17.216)
+2022-07-10 14:02:34,888 INFO org.springframework.boot.StartupInfoLogger [main] Starting ShowtimeControllerTest using Java 1.8.0_202 on BasTz with PID 13840 (started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 14:02:34,891 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 14:02:34,892 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 14:02:42,663 INFO org.springframework.boot.StartupInfoLogger [main] Started ShowtimeControllerTest in 8.215 seconds (JVM running for 11.075)
+2022-07-10 14:03:16,890 INFO org.springframework.boot.StartupInfoLogger [main] Starting ShowtimeControllerTest using Java 1.8.0_202 on BasTz with PID 9316 (started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 14:03:16,894 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 14:03:16,896 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 14:03:28,190 INFO org.springframework.boot.StartupInfoLogger [main] Started ShowtimeControllerTest in 11.788 seconds (JVM running for 15.837)
+2022-07-10 15:08:09,731 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 1.8.0_202 on BasTz with PID 10300 (C:\Users\BasTz\IdeaProjects\Ticket\target\classes started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 15:08:09,736 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 15:08:09,737 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 15:08:14,027 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 4.832 seconds (JVM running for 6.19)
+2022-07-10 15:09:13,532 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 1.8.0_202 on BasTz with PID 2596 (C:\Users\BasTz\IdeaProjects\Ticket\target\classes started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 15:09:13,536 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 15:09:13,537 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 15:09:17,242 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 4.243 seconds (JVM running for 5.478)
+2022-07-10 15:09:58,614 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 1.8.0_202 on BasTz with PID 6936 (C:\Users\BasTz\IdeaProjects\Ticket\target\classes started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 15:09:58,623 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 15:09:58,625 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 15:10:06,841 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 9.178 seconds (JVM running for 10.804)
+2022-07-10 16:45:37,758 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 1.8.0_202 on BasTz with PID 16060 (C:\Users\BasTz\IdeaProjects\Ticket\target\classes started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 16:45:37,762 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 16:45:37,763 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 16:45:41,895 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 4.757 seconds (JVM running for 6.011)
+2022-07-10 16:54:44,844 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 1.8.0_202 on BasTz with PID 2352 (C:\Users\BasTz\IdeaProjects\Ticket\target\classes started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 16:54:44,849 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 16:54:44,850 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 16:54:49,388 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 5.085 seconds (JVM running for 6.39)
+2022-07-10 16:55:54,750 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 1.8.0_202 on BasTz with PID 17392 (C:\Users\BasTz\IdeaProjects\Ticket\target\classes started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 16:55:54,755 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 16:55:54,756 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 16:55:59,724 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 5.824 seconds (JVM running for 7.141)
+2022-07-10 16:59:44,907 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 1.8.0_202 on BasTz with PID 12644 (C:\Users\BasTz\IdeaProjects\Ticket\target\classes started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 16:59:44,913 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 16:59:44,914 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 16:59:52,040 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 7.838 seconds (JVM running for 9.178)
+2022-07-10 18:20:20,864 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 1.8.0_202 on BasTz with PID 2036 (C:\Users\BasTz\IdeaProjects\Ticket\target\classes started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 18:20:20,869 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 18:20:20,870 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 18:20:26,059 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 5.793 seconds (JVM running for 7.386)
+2022-07-10 18:34:55,425 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 1.8.0_202 on BasTz with PID 15168 (C:\Users\BasTz\IdeaProjects\Ticket\target\classes started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 18:34:55,430 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 18:34:55,431 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 18:35:01,066 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 6.296 seconds (JVM running for 7.684)
+2022-07-10 18:35:52,730 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 1.8.0_202 on BasTz with PID 12768 (C:\Users\BasTz\IdeaProjects\Ticket\target\classes started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 18:35:52,735 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 18:35:52,736 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 18:35:57,164 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 4.981 seconds (JVM running for 6.283)
+2022-07-10 19:17:47,150 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 1.8.0_202 on BasTz with PID 6772 (C:\Users\BasTz\IdeaProjects\Ticket\target\classes started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 19:17:47,155 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 19:17:47,156 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 19:17:53,068 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 6.67 seconds (JVM running for 9.12)
+2022-07-10 12:23:03,485 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 1.8.0_332 on d50d1dcc4b7e with PID 1 (/tmp/acb4b164-ff98-419a-8132-eae50d4b49e2 started by root in /tmp/c78eb2b0-822c-42d2-ae70-b96a860611e5)
+2022-07-10 12:23:03,494 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 12:23:03,496 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 12:23:14,779 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 12.223 seconds (JVM running for 17.1)
+2022-07-10 12:36:25,705 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 1.8.0_332 on 7c7405c5dfa0 with PID 1 (/tmp/5e0df69a-0e29-4774-8abc-7dbb2027c3f8 started by root in /tmp/6d94688d-7cc9-485e-8a44-16b6f60fcb93)
+2022-07-10 12:36:25,716 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 12:36:25,719 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "-p 8080:8080"
+2022-07-10 12:36:35,252 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 10.628 seconds (JVM running for 13.98)
+2022-07-10 20:07:35,498 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplicationTests using Java 1.8.0_202 on BasTz with PID 14552 (started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 20:07:35,499 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 20:07:35,501 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 20:07:44,993 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplicationTests in 9.941 seconds (JVM running for 18.55)
+2022-07-10 20:08:19,862 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplicationTests using Java 1.8.0_202 on BasTz with PID 7792 (started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 20:08:19,864 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 20:08:19,866 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 20:08:28,399 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplicationTests in 8.894 seconds (JVM running for 17.0)
+2022-07-10 20:11:27,533 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 1.8.0_202 on BasTz with PID 11444 (C:\Users\BasTz\IdeaProjects\Ticket\target\classes started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 20:11:27,537 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 20:11:27,539 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 20:11:33,321 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 6.852 seconds (JVM running for 9.81)
+2022-07-10 20:12:32,543 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplicationTests using Java 1.8.0-332 on BasTz with PID 4692 (started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 20:12:32,544 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 20:12:32,546 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 20:12:42,744 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplicationTests in 10.526 seconds (JVM running for 19.226)
+2022-07-10 20:13:40,853 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplicationTests using Java 1.8.0-332 on BasTz with PID 18908 (started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 20:13:40,857 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 20:13:40,858 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 20:13:48,721 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplicationTests in 8.433 seconds (JVM running for 11.721)
+2022-07-10 21:46:08,927 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 1.8.0_202 on BasTz with PID 16140 (C:\Users\BasTz\IdeaProjects\Ticket\target\classes started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 21:46:08,932 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 21:46:08,933 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 21:46:13,886 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 5.615 seconds (JVM running for 7.262)
+2022-07-10 22:01:16,151 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 1.8.0_202 on BasTz with PID 10472 (C:\Users\BasTz\IdeaProjects\Ticket\target\classes started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-10 22:01:16,156 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-10 22:01:16,157 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-10 22:01:20,909 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 5.399 seconds (JVM running for 7.258)

@@ -41,8 +41,6 @@ public class CustomerService {
         }
         if(Flag){
             for (int i = 1;i<= 10;i++){
-                logger.info("customer : {}", customer.getCol());
-                logger.info("check : {}", i);
                 if(customer.getCol() == i){
                     Flag = true;
                     break;
