@@ -1,13 +1,18 @@
 package myapp.ticket.Showtime;
 
+import myapp.ticket.Example;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Date;
 import java.util.List;
 
 @RestController
 public class ShowtimeController {
 
+    private static final Logger logger = LoggerFactory.getLogger(Example.class);
     @Autowired
     private ShowtimeService showtimeService;
 
@@ -31,6 +36,7 @@ public class ShowtimeController {
         showtimeService.DeleteShowtime(id);
     }
 
+    @CrossOrigin
     @RequestMapping(value = "/showtimebymovie/{id}", method = RequestMethod.GET)
     public List<Showtime> ShowtimeByMovieId(@PathVariable int id){
         return showtimeService.ShowtimeByMovieId(id);

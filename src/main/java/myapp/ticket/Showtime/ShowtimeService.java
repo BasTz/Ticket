@@ -6,6 +6,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
@@ -16,6 +18,10 @@ public class ShowtimeService {
     private static final Logger logger = LoggerFactory.getLogger(Example.class);
     @Autowired
     private ShowtimeRepository showtimeRepository;
+
+    public ShowtimeService(ShowtimeRepository showtimeRepository) {
+        this.showtimeRepository = showtimeRepository;
+    }
 
     public List<Showtime> getAllShowtime() {
         List<Showtime> showtimes = new ArrayList<>();
@@ -29,12 +35,13 @@ public class ShowtimeService {
         Calendar calendar = Calendar.getInstance();
         calendar.setTime(showtime.getDatetime());
         int Hour = calendar.get(Calendar.HOUR_OF_DAY);
+        DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss");
         if(Hour == 11 || Hour == 14 || Hour == 17 || Hour == 20) {
             List<Showtime> myShowtime = (List<Showtime>) showtimeRepository.findAll();
             if (!myShowtime.isEmpty()) {
                 for (Showtime value : myShowtime) {
                     if (showtime.getTheater().getId() == value.getTheater().getId()
-                            && showtime.getDatetime().compareTo(value.getDatetime()) == 0) {
+                            && dateFormat.format(showtime.getDatetime()).equals(dateFormat.format(value.getDatetime()))) {
                         return "Duplicate Theater in same time";
                     }
                 }
