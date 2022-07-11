@@ -1,6 +1,5 @@
 package myapp.ticket.Showtime;
 
-import myapp.ticket.Example;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,7 +14,7 @@ import java.util.List;
 @Service
 public class ShowtimeService {
 
-    private static final Logger logger = LoggerFactory.getLogger(Example.class);
+    private static final Logger logger = LoggerFactory.getLogger(ShowtimeService.class);
     @Autowired
     private ShowtimeRepository showtimeRepository;
 
@@ -32,25 +31,30 @@ public class ShowtimeService {
     }
 
     public String AddShowtime(Showtime showtime) {
-        Calendar calendar = Calendar.getInstance();
-        calendar.setTime(showtime.getDatetime());
-        int Hour = calendar.get(Calendar.HOUR_OF_DAY);
-        DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss");
-        if(Hour == 11 || Hour == 14 || Hour == 17 || Hour == 20) {
-            List<Showtime> myShowtime = (List<Showtime>) showtimeRepository.findAll();
-            if (!myShowtime.isEmpty()) {
-                for (Showtime value : myShowtime) {
-                    if (showtime.getTheater().getId() == value.getTheater().getId()
-                            && dateFormat.format(showtime.getDatetime()).equals(dateFormat.format(value.getDatetime()))) {
-                        return "Duplicate Theater in same time";
-                    }
-                }
-            }
-            showtimeRepository.save(showtime);
-            return "Save successful";
+        if(showtime == null){
+            return "!!ERROR!! Data is Null";
         }
         else{
-            return "Every theater has a round 11:00 14:00 17:00 20:00 only";
+            Calendar calendar = Calendar.getInstance();
+            calendar.setTime(showtime.getDatetime());
+            int Hour = calendar.get(Calendar.HOUR_OF_DAY);
+            DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss");
+            if(Hour == 11 || Hour == 14 || Hour == 17 || Hour == 20) {
+                List<Showtime> myShowtime = (List<Showtime>) showtimeRepository.findAll();
+                if (!myShowtime.isEmpty()) {
+                    for (Showtime value : myShowtime) {
+                        if (showtime.getTheater().getId() == value.getTheater().getId()
+                                && dateFormat.format(showtime.getDatetime()).equals(dateFormat.format(value.getDatetime()))) {
+                            return "Duplicate Theater in same time";
+                        }
+                    }
+                }
+                showtimeRepository.save(showtime);
+                return "Save successful";
+            }
+            else{
+                return "Every theater has a round 11:00 14:00 17:00 20:00 only";
+            }
         }
     }
     public void UpdateShowtime(int id, Showtime showtime) {

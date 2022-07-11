@@ -23,3 +23,9 @@ INSERT INTO "showtime" ("theater_id","movie_id","datetime") VALUES (2,2,'2022-07
 INSERT INTO "showtime" ("theater_id","movie_id","datetime") VALUES (1,2,'2022-07-13T11:00:00.000+07:00');
 INSERT INTO "showtime" ("theater_id","movie_id","datetime") VALUES (1,2,'2022-07-13T17:00:00.000+07:00');
 COMMIT;
+
+INSERT INTO "customer" ("row","col","showtime_id") VALUES ('A',1,1);
+INSERT INTO "customer" ("row","col","showtime_id") VALUES ('B',1,1);
+INSERT INTO "customer" ("row","col","showtime_id") VALUES ('A',5,2);
+INSERT INTO "customer" ("row","col","showtime_id") VALUES ('A',10,3);
+COMMIT;

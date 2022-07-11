@@ -1,8 +1,5 @@
 package myapp.ticket.Customer;
 
-import myapp.ticket.Example;
-import myapp.ticket.Movie.Movie;
-import myapp.ticket.Showtime.Showtime;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,7 +11,7 @@ import java.util.List;
 @Service
 public class CustomerService {
 
-    private static final Logger logger = LoggerFactory.getLogger(Example.class);
+    private static final Logger logger = LoggerFactory.getLogger(CustomerService.class);
     @Autowired
     private CustomerRepository customerRepository;
 
@@ -28,45 +25,46 @@ public class CustomerService {
     }
 
     public String AddCustomer(Customer customer) {
-        boolean Flag = true;
-        String[] checkRow = new String[] {"A", "B", "C", "D", "E","F","G","H","I","J"};
-        for (String check : checkRow) {
-            if(customer.getRow().equals(check)){
-                Flag = true;
-                break;
-            }
-            else {
-                Flag = false;
-            }
+        if(customer == null){
+            return "!!ERROR!! Data is Null";
         }
-        if(Flag){
-            for (int i = 1;i<= 10;i++){
-                if(customer.getCol() == i){
+        else {
+            boolean Flag = true;
+            String[] checkRow = new String[]{"A", "B", "C", "D", "E", "F", "G", "H", "I", "J"};
+            for (String check : checkRow) {
+                if (customer.getRow().equals(check)) {
                     Flag = true;
                     break;
-                }
-                else {
+                } else {
                     Flag = false;
                 }
             }
-        }
-        else {
-            return "Row can only have A-J";
-        }
-        if(Flag) {
-            List<Customer> checkDup = CustomerByShowtimeId(customer.getShowtime().getId());
-            for (Customer check : checkDup) {
-                if(check.getRow().equals(customer.getRow()) && check.getCol() == customer.getCol()){
-                    return "Can't Book a chair unavailable";
+            if (Flag) {
+                for (int i = 1; i <= 10; i++) {
+                    if (customer.getCol() == i) {
+                        Flag = true;
+                        break;
+                    } else {
+                        Flag = false;
+                    }
                 }
+            } else {
+                return "Row can only have A-J";
             }
-            customerRepository.save(customer);
-            Customer myCustomer = customerRepository.findById(customer.getId());
-            logger.info("Booking : {}", myCustomer);
-            return "Booking successful";
-        }
-        else {
-            return "Col can only have 1-10";
+            if (Flag) {
+                List<Customer> checkDup = CustomerByShowtimeId(customer.getShowtime().getId());
+                for (Customer check : checkDup) {
+                    if (check.getRow().equals(customer.getRow()) && check.getCol() == customer.getCol()) {
+                        return "Can't Book a chair unavailable";
+                    }
+                }
+                customerRepository.save(customer);
+                Customer myCustomer = customerRepository.findById(customer.getId());
+                logger.info("Booking : {}", myCustomer);
+                return "Booking successful";
+            } else {
+                return "Col can only have 1-10";
+            }
         }
     }
 

@@ -1,6 +1,5 @@
 package myapp.ticket.Movie;
 
-import myapp.ticket.Example;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,7 +11,7 @@ import java.util.List;
 @Service
 public class MovieService {
 
-    private static final Logger logger = LoggerFactory.getLogger(Example.class);
+    private static final Logger logger = LoggerFactory.getLogger(MovieService.class);
     @Autowired
     private MovieRepository movieRepository;
 

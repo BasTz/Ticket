@@ -1,7 +1,5 @@
 package myapp.ticket.Theater;
 
-import myapp.ticket.Example;
-import myapp.ticket.Movie.Movie;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,7 +11,7 @@ import java.util.List;
 @Service
 public class TheaterService {
 
-    private static final Logger logger = LoggerFactory.getLogger(Example.class);
+    private static final Logger logger = LoggerFactory.getLogger(TheaterService.class);
     @Autowired
     private TheaterRepository theaterRepository;
     public List<Theater> getAllTheater() {

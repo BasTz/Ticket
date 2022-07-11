@@ -22,3 +22,84 @@
 2022-07-11 00:59:55,006 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
 2022-07-11 00:59:55,010 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
 2022-07-11 01:00:05,497 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplicationTests in 11.149 seconds (JVM running for 24.616)
+2022-07-11 01:22:03,522 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 1.8.0_332 on MacBook-Pro-khxng-Chulita.local with PID 40402 (/Users/bumbim/IdeaProjects/Ticket/target/classes started by bumbim in /Users/bumbim/IdeaProjects/Ticket)
+2022-07-11 01:22:03,525 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-11 01:22:03,526 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-11 01:22:07,998 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 5.027 seconds (JVM running for 6.596)
+2022-07-11 01:24:29,904 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 1.8.0_332 on MacBook-Pro-khxng-Chulita.local with PID 40523 (/Users/bumbim/IdeaProjects/Ticket/target/classes started by bumbim in /Users/bumbim/IdeaProjects/Ticket)
+2022-07-11 01:24:29,907 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-11 01:24:29,909 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-11 01:24:38,843 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 10.644 seconds (JVM running for 13.638)
+2022-07-11 09:47:03,614 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 1.8.0_332 on MacBook-Pro-khxng-Chulita.local with PID 44443 (/Users/bumbim/IdeaProjects/Ticket/target/classes started by bumbim in /Users/bumbim/IdeaProjects/Ticket)
+2022-07-11 09:47:03,621 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-11 09:47:03,626 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-11 09:47:08,495 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 5.748 seconds (JVM running for 7.969)
+2022-07-11 10:23:50,731 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 1.8.0_332 on MacBook-Pro-khxng-Chulita.local with PID 45916 (/Users/bumbim/IdeaProjects/Ticket/target/classes started by bumbim in /Users/bumbim/IdeaProjects/Ticket)
+2022-07-11 10:23:50,786 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-11 10:23:50,787 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-11 10:24:44,682 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 58.793 seconds (JVM running for 66.962)
+2022-07-11 10:53:30,892 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 1.8.0_332 on MacBook-Pro-khxng-Chulita.local with PID 46949 (/Users/bumbim/IdeaProjects/Ticket/target/classes started by bumbim in /Users/bumbim/IdeaProjects/Ticket)
+2022-07-11 10:53:30,896 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-11 10:53:30,897 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-11 10:53:39,642 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 9.255 seconds (JVM running for 10.65)
+2022-07-11 10:53:54,815 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 1.8.0_332 on MacBook-Pro-khxng-Chulita.local with PID 46961 (/Users/bumbim/IdeaProjects/Ticket/target/classes started by bumbim in /Users/bumbim/IdeaProjects/Ticket)
+2022-07-11 10:53:54,824 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-11 10:53:54,825 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-11 10:53:58,198 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 3.91 seconds (JVM running for 5.207)
+2022-07-11 10:55:34,203 INFO myapp.ticket.Customer.CustomerService [main] Booking : null
+2022-07-11 10:59:26,310 INFO myapp.ticket.Customer.CustomerService [main] Booking : null
+2022-07-11 10:59:52,374 INFO myapp.ticket.Customer.CustomerService [http-nio-8080-exec-5] Booking : Customer(id=5, row=A, col=10, showtime=Showtime(id=1, theater=null, movie=null, datetime=null))
+2022-07-11 11:00:36,087 INFO myapp.ticket.Customer.CustomerService [main] Booking : null
+2022-07-11 11:21:36,593 INFO myapp.ticket.Customer.CustomerService [main] Booking : null
+2022-07-11 11:24:22,706 INFO myapp.ticket.Customer.CustomerService [main] Booking : null
+2022-07-11 12:23:21,789 INFO myapp.ticket.Customer.CustomerService [main] Booking : null
+2022-07-11 12:24:00,008 INFO myapp.ticket.Customer.CustomerService [main] Booking : null
+2022-07-11 12:32:34,280 INFO myapp.ticket.Theater.TheaterService [http-nio-8080-exec-3] Update : Theater(id=1, name=THEATER-1-edit)
+2022-07-11 15:05:54,421 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplicationTests using Java 1.8.0_332 on MacBook-Pro-khxng-Chulita.local with PID 54752 (started by bumbim in /Users/bumbim/IdeaProjects/Ticket)
+2022-07-11 15:05:54,423 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-11 15:05:54,425 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-11 15:06:01,747 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplicationTests in 8.811 seconds (JVM running for 13.323)
+2022-07-11 15:10:13,577 INFO myapp.ticket.Customer.CustomerService [main] Booking : null
+2022-07-11 15:10:15,263 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplicationTests using Java 1.8.0_332 on MacBook-Pro-khxng-Chulita.local with PID 54991 (started by bumbim in /Users/bumbim/IdeaProjects/Ticket)
+2022-07-11 15:10:15,264 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-11 15:10:15,265 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-11 15:10:21,826 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplicationTests in 7.277 seconds (JVM running for 19.343)
+2022-07-11 15:17:00,164 INFO myapp.ticket.Customer.CustomerService [main] Booking : null
+2022-07-11 15:17:01,464 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplicationTests using Java 1.8.0_332 on MacBook-Pro-khxng-Chulita.local with PID 55214 (started by bumbim in /Users/bumbim/IdeaProjects/Ticket)
+2022-07-11 15:17:01,464 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-11 15:17:01,465 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-11 15:17:05,672 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplicationTests in 4.599 seconds (JVM running for 10.216)
+2022-07-11 15:17:42,757 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 1.8.0_332 on MacBook-Pro-khxng-Chulita.local with PID 55237 (/Users/bumbim/IdeaProjects/Ticket/target/classes started by bumbim in /Users/bumbim/IdeaProjects/Ticket)
+2022-07-11 15:17:42,761 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-11 15:17:42,762 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-11 15:17:46,815 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 4.79 seconds (JVM running for 6.416)
+2022-07-11 15:17:58,626 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 1.8.0_332 on MacBook-Pro-khxng-Chulita.local with PID 55249 (/Users/bumbim/IdeaProjects/Ticket/target/classes started by bumbim in /Users/bumbim/IdeaProjects/Ticket)
+2022-07-11 15:17:58,631 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-11 15:17:58,632 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-11 15:18:02,531 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 4.451 seconds (JVM running for 5.601)
+2022-07-11 15:18:11,456 INFO myapp.ticket.Customer.CustomerService [main] Booking : null
+2022-07-11 15:18:11,577 INFO myapp.ticket.Customer.CustomerService [main] Booking : null
+2022-07-11 15:18:12,461 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplicationTests using Java 1.8.0_332 on MacBook-Pro-khxng-Chulita.local with PID 55255 (started by bumbim in /Users/bumbim/IdeaProjects/Ticket)
+2022-07-11 15:18:12,462 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-11 15:18:12,463 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-11 15:18:18,253 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplicationTests in 6.142 seconds (JVM running for 12.481)
+2022-07-11 15:18:44,013 INFO myapp.ticket.Customer.CustomerService [main] Booking : null
+2022-07-11 15:18:45,049 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplicationTests using Java 1.8.0_332 on MacBook-Pro-khxng-Chulita.local with PID 55269 (started by bumbim in /Users/bumbim/IdeaProjects/Ticket)
+2022-07-11 15:18:45,050 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-11 15:18:45,051 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-11 15:18:50,977 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplicationTests in 6.493 seconds (JVM running for 10.36)
+2022-07-11 15:19:02,959 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 1.8.0_332 on MacBook-Pro-khxng-Chulita.local with PID 55280 (/Users/bumbim/IdeaProjects/Ticket/target/classes started by bumbim in /Users/bumbim/IdeaProjects/Ticket)
+2022-07-11 15:19:02,964 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-11 15:19:02,966 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-11 15:19:09,055 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 8.015 seconds (JVM running for 11.264)
+2022-07-11 15:19:12,133 INFO myapp.ticket.Customer.CustomerService [main] Booking : null
+2022-07-11 15:19:13,123 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplicationTests using Java 1.8.0_332 on MacBook-Pro-khxng-Chulita.local with PID 55286 (started by bumbim in /Users/bumbim/IdeaProjects/Ticket)
+2022-07-11 15:19:13,124 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-11 15:19:13,125 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-11 15:19:26,028 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplicationTests in 13.33 seconds (JVM running for 18.122)
+2022-07-11 16:04:34,457 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 1.8.0_332 on MacBook-Pro-khxng-Chulita.local with PID 56599 (/Users/bumbim/IdeaProjects/Ticket/target/classes started by bumbim in /Users/bumbim/IdeaProjects/Ticket)
+2022-07-11 16:04:34,462 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-11 16:04:34,463 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-11 16:04:41,088 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 7.565 seconds (JVM running for 10.25)
+2022-07-11 16:05:54,533 INFO myapp.ticket.Theater.TheaterService [http-nio-8080-exec-3] Delete : Theater Id = 6
+2022-07-11 16:06:10,782 INFO myapp.ticket.Theater.TheaterService [http-nio-8080-exec-5] Update : Theater(id=5, name=THEATER-5-edit)
