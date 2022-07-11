@@ -24,13 +24,13 @@ public class CustomerController {
     }
 
     @RequestMapping(value="/customer/{id}", method = RequestMethod.PUT)
-    public void UpdateCustomer(@PathVariable int id, @RequestBody Customer customer) {
-        customerService.UpdateCustomer(id, customer);
+    public String UpdateCustomer(@PathVariable int id, @RequestBody Customer customer) {
+        return customerService.UpdateCustomer(id, customer);
     }
 
     @RequestMapping(value = "/customer/{id}", method = RequestMethod.DELETE)
-    public void DeleteCustomer(@PathVariable int id) {
-        customerService.DeleteCustomer(id);
+    public String DeleteCustomer(@PathVariable int id) {
+        return customerService.DeleteCustomer(id);
     }
 
     @RequestMapping(value = "/customerbyshowtime/{id}", method = RequestMethod.GET)

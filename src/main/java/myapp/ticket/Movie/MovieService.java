@@ -1,5 +1,6 @@
 package myapp.ticket.Movie;
 
+import myapp.ticket.Theater.Theater;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,19 +26,29 @@ public class MovieService {
 
 
 
-    public void AddMovie(Movie movies) {
+    public String AddMovie(Movie movies) {
         movieRepository.save(movies);
+        return "Save successful";
     }
 
-    public void UpdateMovie(int id, Movie movies) {
+    public String UpdateMovie(int id, Movie movies) {
         Movie myMovies = movieRepository.findById(id);
-        myMovies.setName(movies.getName());
-        movieRepository.save(myMovies);
-        logger.info("Update : {}",myMovies);
+        if(myMovies != null) {
+            myMovies.setName(movies.getName());
+            movieRepository.save(myMovies);
+            logger.info("Update : {}", myMovies);
+            return "Update successful";
+        }
+        else return "Not Update : Data not available";
     }
 
-    public void DeleteMovie(int id) {
-        movieRepository.deleteById(id);
-        logger.info("Delete : Movie Id = {}",id);
+    public String DeleteMovie(int id) {
+        Movie myMovies = movieRepository.findById(id);
+        if(myMovies != null) {
+            movieRepository.deleteById(id);
+            logger.info("Delete : Theater Id = {}", id);
+            return "Delete successful";
+        }
+        else return "Not Delete : Data not available";
     }
 }

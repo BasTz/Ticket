@@ -1,5 +1,6 @@
 package myapp.ticket.Theater;
 
+import myapp.ticket.Showtime.Showtime;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,19 +23,29 @@ public class TheaterService {
         return theaters;
     }
 
-    public void AddTheater(Theater theater) {
+    public String AddTheater(Theater theater) {
         theaterRepository.save(theater);
+        return "Save successful";
     }
 
-    public void UpdateTheater(int id, Theater theater) {
+    public String UpdateTheater(int id, Theater theater) {
         Theater myTheater = theaterRepository.findById(id);
-        myTheater.setName(theater.getName());
-        theaterRepository.save(myTheater);
-        logger.info("Update : {}",myTheater);
+        if(myTheater != null) {
+            myTheater.setName(theater.getName());
+            theaterRepository.save(myTheater);
+            logger.info("Update : {}", myTheater);
+            return "Update successful";
+        }
+        else return "Not Update : Data not available";
     }
 
-    public void DeleteTheater(int id) {
-        theaterRepository.deleteById(id);
-        logger.info("Delete : Theater Id = {}",id);
+    public String DeleteTheater(int id) {
+        Theater myTheater = theaterRepository.findById(id);
+        if(myTheater != null) {
+            theaterRepository.deleteById(id);
+            logger.info("Delete : Theater Id = {}", id);
+            return "Delete successful";
+        }
+        else return "Not Delete : Data not available";
     }
 }

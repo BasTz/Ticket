@@ -17,17 +17,17 @@ public class MovieController {
     }
 
     @RequestMapping(value = "/movie", method = RequestMethod.POST)
-    public void AddMovie(@RequestBody Movie movies){
-        movieService.AddMovie(movies);
+    public String AddMovie(@RequestBody Movie movies){
+        return movieService.AddMovie(movies);
     }
 
     @RequestMapping(value="/movie/{id}", method = RequestMethod.PUT)
-    public void UpdateMovie(@PathVariable int id, @RequestBody Movie movies) {
-        movieService.UpdateMovie(id, movies);
+    public String UpdateMovie(@PathVariable int id, @RequestBody Movie movies) {
+        return movieService.UpdateMovie(id, movies);
     }
 
     @RequestMapping(value = "/movie/{id}", method = RequestMethod.DELETE)
-    public void DeleteMovie(@PathVariable int id) {
-        movieService.DeleteMovie(id);
+    public String DeleteMovie(@PathVariable int id) {
+        return movieService.DeleteMovie(id);
     }
 }

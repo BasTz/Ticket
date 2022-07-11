@@ -1,5 +1,6 @@
 package myapp.ticket.Showtime;
 
+import myapp.ticket.Customer.Customer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -57,18 +58,47 @@ public class ShowtimeService {
             }
         }
     }
-    public void UpdateShowtime(int id, Showtime showtime) {
+    public String UpdateShowtime(int id, Showtime showtime) {
         Showtime myShowtime = showtimeRepository.findById(id);
-        myShowtime.setMovie(showtime.getMovie());
-        myShowtime.setTheater(showtime.getTheater());
-        myShowtime.setDatetime(showtime.getDatetime());
-        showtimeRepository.save(myShowtime);
-        logger.info("Update : {}",myShowtime);
+        if(showtime == null){
+            return "!!ERROR!! Data is Null";
+        }
+        else{
+            Calendar calendar = Calendar.getInstance();
+            calendar.setTime(showtime.getDatetime());
+            int Hour = calendar.get(Calendar.HOUR_OF_DAY);
+            DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss");
+            if(Hour == 11 || Hour == 14 || Hour == 17 || Hour == 20) {
+                List<Showtime> myShowtimeTemp = (List<Showtime>) showtimeRepository.findAll();
+                if (!myShowtimeTemp.isEmpty()) {
+                    for (Showtime value : myShowtimeTemp) {
+                        if (showtime.getTheater().getId() == value.getTheater().getId()
+                                && dateFormat.format(showtime.getDatetime()).equals(dateFormat.format(value.getDatetime()))) {
+                            return "Duplicate Theater in same time";
+                        }
+                    }
+                }
+                myShowtime.setMovie(showtime.getMovie());
+                myShowtime.setTheater(showtime.getTheater());
+                myShowtime.setDatetime(showtime.getDatetime());
+                showtimeRepository.save(myShowtime);
+                logger.info("Update : {}",myShowtime);
+                return "Update successful";
+            }
+            else{
+                return "Every theater has a round 11:00 14:00 17:00 20:00 only";
+            }
+        }
     }
 
-    public void DeleteShowtime(int id) {
-        showtimeRepository.deleteById(id);
-        logger.info("Delete : Showtime Id = {}",id);
+    public String DeleteShowtime(int id) {
+        Showtime myShowtime = showtimeRepository.findById(id);
+        if(myShowtime != null) {
+            showtimeRepository.deleteById(id);
+            logger.info("Delete : Showtime Id = {}", id);
+            return "Delete successful";
+        }
+        else return "Not Delete : Data not available";
     }
 
     public List<Showtime> ShowtimeByMovieId(int id) {

@@ -68,19 +68,63 @@ public class CustomerService {
         }
     }
 
-    public void UpdateCustomer(int id, Customer customer) {
+    public String UpdateCustomer(int id, Customer customer) {
         Customer myCustomer = customerRepository.findById(id);
-        myCustomer.setRow(customer.getRow());
-        myCustomer.setCol(customer.getCol());
-        myCustomer.setShowtime(customer.getShowtime());
-        customerRepository.save(myCustomer);
-        logger.info("Update : {}",myCustomer);
+        if(customer == null){
+            return "!!ERROR!! Data is Null";
+        }
+        else {
+            boolean Flag = true;
+            String[] checkRow = new String[]{"A", "B", "C", "D", "E", "F", "G", "H", "I", "J"};
+            for (String check : checkRow) {
+                if (customer.getRow().equals(check)) {
+                    Flag = true;
+                    break;
+                } else {
+                    Flag = false;
+                }
+            }
+            if (Flag) {
+                for (int i = 1; i <= 10; i++) {
+                    if (customer.getCol() == i) {
+                        Flag = true;
+                        break;
+                    } else {
+                        Flag = false;
+                    }
+                }
+            } else {
+                return "Row can only have A-J";
+            }
+            if (Flag) {
+                List<Customer> checkDup = CustomerByShowtimeId(customer.getShowtime().getId());
+                for (Customer check : checkDup) {
+                    if (check.getRow().equals(customer.getRow()) && check.getCol() == customer.getCol()) {
+                        return "Can't Book a chair unavailable";
+                    }
+                }
+
+                myCustomer.setRow(customer.getRow());
+                myCustomer.setCol(customer.getCol());
+                myCustomer.setShowtime(customer.getShowtime());
+                customerRepository.save(myCustomer);
+                Customer customer1 = customerRepository.findById(customer.getId());
+                logger.info("Update Booking : {}", customer1);
+                return "Booking successful";
+            } else {
+                return "Col can only have 1-10";
+            }
+        }
     }
 
-    public void DeleteCustomer(int id) {
+    public String DeleteCustomer(int id) {
         Customer myCustomer = customerRepository.findById(id);
-        customerRepository.deleteById(id);
-        logger.info("Cancel Booking : {}",myCustomer);
+        if(myCustomer != null){
+            customerRepository.deleteById(id);
+            logger.info("Cancel Booking : {}",myCustomer);
+            return "Delete successful";
+        }
+        else return "Not Delete : Data not available";
     }
 
     public List<Customer> CustomerByShowtimeId(int id) {

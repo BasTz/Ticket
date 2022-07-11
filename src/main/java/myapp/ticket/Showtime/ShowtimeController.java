@@ -27,13 +27,13 @@ public class ShowtimeController {
     }
 
     @RequestMapping(value="/showtime/{id}", method = RequestMethod.PUT)
-    public void UpdateShowtime(@PathVariable int id, @RequestBody Showtime showtime) {
-        showtimeService.UpdateShowtime(id, showtime);
+    public String UpdateShowtime(@PathVariable int id, @RequestBody Showtime showtime) {
+        return showtimeService.UpdateShowtime(id, showtime);
     }
 
     @RequestMapping(value = "/showtime/{id}", method = RequestMethod.DELETE)
-    public void DeleteShowtime(@PathVariable int id) {
-        showtimeService.DeleteShowtime(id);
+    public String DeleteShowtime(@PathVariable int id) {
+        return showtimeService.DeleteShowtime(id);
     }
 
     @CrossOrigin

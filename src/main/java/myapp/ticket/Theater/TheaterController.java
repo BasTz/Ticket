@@ -18,17 +18,17 @@ public class TheaterController {
     }
 
     @RequestMapping(value = "/theater", method = RequestMethod.POST)
-    public void AddTheater(@RequestBody Theater theater){
-        theaterService.AddTheater(theater);
+    public String AddTheater(@RequestBody Theater theater){
+        return theaterService.AddTheater(theater);
     }
 
     @RequestMapping(value="/theater/{id}", method = RequestMethod.PUT)
-    public void UpdateTheater(@PathVariable int id, @RequestBody Theater theater) {
-        theaterService.UpdateTheater(id, theater);
+    public String UpdateTheater(@PathVariable int id, @RequestBody Theater theater) {
+        return theaterService.UpdateTheater(id, theater);
     }
 
     @RequestMapping(value = "/theater/{id}", method = RequestMethod.DELETE)
-    public void DeleteTheater(@PathVariable int id) {
-        theaterService.DeleteTheater(id);
+    public String DeleteTheater(@PathVariable int id) {
+        return theaterService.DeleteTheater(id);
     }
 }
