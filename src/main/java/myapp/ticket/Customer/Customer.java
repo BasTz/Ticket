@@ -5,7 +5,6 @@ import myapp.ticket.Showtime.Showtime;
 import org.hibernate.Hibernate;
 
 import javax.persistence.*;
-import java.util.Objects;
 
 @Entity
 @Getter
@@ -35,8 +34,10 @@ public class Customer {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (o == null || Hibernate.getClass(this) != Hibernate.getClass(o)) return false;
-        Customer customer = (Customer) o;
+        if (o != null) {
+            Hibernate.getClass(this);
+            Hibernate.getClass(o);
+        }
         return false;
     }
 

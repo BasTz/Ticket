@@ -1,7 +1,5 @@
 package myapp.ticket.Showtime;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.ObjectWriter;
 import myapp.ticket.Movie.Movie;
 import myapp.ticket.Theater.Theater;
 import org.junit.jupiter.api.*;
@@ -14,8 +12,6 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import org.mockito.junit.jupiter.MockitoSettings;
 import org.mockito.quality.Strictness;
 import org.springframework.http.ResponseEntity;
-import org.springframework.test.web.servlet.MockMvc;
-import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.client.RestTemplate;
 
 import java.net.URL;
@@ -38,7 +34,6 @@ class ShowtimeServiceTest {
 
     List<Showtime> showtimes = new ArrayList<>();
 
-    Showtime showtime = new Showtime();
     @BeforeEach
     public void setUp() throws Exception{
         MockitoAnnotations.openMocks(this);
@@ -102,10 +97,9 @@ class ShowtimeServiceTest {
         showtime1.setId(0);
         showtime1.setTheater(new Theater(1, null));
         showtime1.setMovie(new Movie(2, null));
-        showtime1.setDatetime(setDate(2022,7,10,10));
+        showtime1.setDatetime(setDate(2022,7,10,15));
 
         when(showtimeRepository.save(Mockito.any(Showtime.class))).thenAnswer(i -> i.getArguments()[0]);
-        when(showtimeRepository.findAll()).thenReturn(showtimes);
         when(showtimeRepository.findAll()).thenReturn(showtimes);
 
         Assertions.assertEquals(showtimeService.AddShowtime(showtime1), "Every theater has a round 11:00 14:00 17:00 20:00 only");

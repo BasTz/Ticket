@@ -1,6 +1,5 @@
 package myapp.ticket.Showtime;
 
-import myapp.ticket.Customer.Customer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,6 +10,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
+import java.util.TimeZone;
 
 @Service
 public class ShowtimeService {
@@ -40,6 +40,7 @@ public class ShowtimeService {
             calendar.setTime(showtime.getDatetime());
             int Hour = calendar.get(Calendar.HOUR_OF_DAY);
             DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss");
+            dateFormat.setTimeZone(TimeZone.getTimeZone("Asia/Bangkok"));
             if(Hour == 11 || Hour == 14 || Hour == 17 || Hour == 20) {
                 List<Showtime> myShowtime = (List<Showtime>) showtimeRepository.findAll();
                 if (!myShowtime.isEmpty()) {
@@ -68,6 +69,7 @@ public class ShowtimeService {
             calendar.setTime(showtime.getDatetime());
             int Hour = calendar.get(Calendar.HOUR_OF_DAY);
             DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss");
+            dateFormat.setTimeZone(TimeZone.getTimeZone("Asia/Bangkok"));
             if(Hour == 11 || Hour == 14 || Hour == 17 || Hour == 20) {
                 List<Showtime> myShowtimeTemp = (List<Showtime>) showtimeRepository.findAll();
                 if (!myShowtimeTemp.isEmpty()) {

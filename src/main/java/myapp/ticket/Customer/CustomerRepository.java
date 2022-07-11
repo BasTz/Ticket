@@ -1,6 +1,5 @@
 package myapp.ticket.Customer;
 
-import myapp.ticket.Movie.Movie;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.List;

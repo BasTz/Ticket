@@ -1,11 +1,15 @@
 package myapp.ticket.Theater;
 
-import lombok.Data;
+import lombok.*;
+import org.hibernate.Hibernate;
 
 import javax.persistence.*;
 
 @Entity
-@Data
+@Getter
+@Setter
+@ToString
+@RequiredArgsConstructor
 @Table(name = "Theater")
 public class Theater {
     @Id
@@ -14,11 +18,23 @@ public class Theater {
 
     private String name;
 
-    public Theater() {
-    }
-
     public Theater(int id, String name) {
         this.id = id;
         this.name = name;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o != null) {
+            Hibernate.getClass(this);
+            Hibernate.getClass(o);
+        }
+        return false;
+    }
+
+    @Override
+    public int hashCode() {
+        return getClass().hashCode();
     }
 }

@@ -7,7 +7,6 @@ import org.hibernate.Hibernate;
 
 import javax.persistence.*;
 import java.util.Date;
-import java.util.Objects;
 
 @Entity
 @Getter
@@ -40,8 +39,10 @@ public class Showtime {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (o == null || Hibernate.getClass(this) != Hibernate.getClass(o)) return false;
-        Showtime showtime = (Showtime) o;
+        if (o != null) {
+            Hibernate.getClass(this);
+            Hibernate.getClass(o);
+        }
         return false;
     }
 

@@ -157,3 +157,134 @@
 2022-07-11 17:28:34,568 INFO myapp.ticket.Theater.TheaterService [http-nio-8080-exec-5] Delete : Theater Id = 6
 2022-07-11 17:28:56,901 INFO myapp.ticket.Movie.MovieService [http-nio-8080-exec-7] Update : Movie(id=6, name=MOVIE-6-Edit)
 2022-07-11 17:29:12,592 INFO myapp.ticket.Movie.MovieService [http-nio-8080-exec-9] Delete : Theater Id = 6
+2022-07-11 23:16:08,551 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplicationTests using Java 1.8.0_202 on BasTz with PID 16008 (started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-11 23:16:08,554 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-11 23:16:08,556 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-11 23:16:21,703 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplicationTests in 14.173 seconds (JVM running for 32.601)
+2022-07-11 23:16:27,459 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 1.8.0_202 on BasTz with PID 6364 (C:\Users\BasTz\IdeaProjects\Ticket\target\classes started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-11 23:16:27,463 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-11 23:16:27,465 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-11 23:16:32,892 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 6.077 seconds (JVM running for 7.881)
+2022-07-11 23:16:49,676 INFO myapp.ticket.Customer.CustomerService [main] Booking : null
+2022-07-11 23:16:52,526 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplicationTests using Java 1.8.0_202 on BasTz with PID 5960 (started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-11 23:16:52,527 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-11 23:16:52,529 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-11 23:17:07,767 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplicationTests in 16.414 seconds (JVM running for 25.909)
+2022-07-11 23:37:04,269 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 1.8.0_202 on BasTz with PID 16924 (C:\Users\BasTz\IdeaProjects\Ticket\target\classes started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-11 23:37:04,273 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-11 23:37:04,273 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-11 23:37:10,710 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 7.296 seconds (JVM running for 9.964)
+2022-07-11 23:37:32,738 INFO myapp.ticket.Customer.CustomerService [main] Booking : null
+2022-07-11 23:37:34,631 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplicationTests using Java 1.8.0_202 on BasTz with PID 4748 (started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-11 23:37:34,632 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-11 23:37:34,646 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-11 23:37:45,636 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplicationTests in 11.696 seconds (JVM running for 17.984)
+2022-07-11 23:38:34,318 INFO myapp.ticket.Customer.CustomerService [main] Booking : null
+2022-07-11 23:38:35,942 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplicationTests using Java 1.8.0_202 on BasTz with PID 16700 (started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-11 23:38:35,943 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-11 23:38:35,944 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-11 23:38:54,566 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplicationTests in 19.438 seconds (JVM running for 24.704)
+2022-07-11 23:39:24,406 INFO myapp.ticket.Customer.CustomerService [main] Booking : null
+2022-07-11 23:39:26,126 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplicationTests using Java 1.8.0_202 on BasTz with PID 17308 (started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-11 23:39:26,127 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-11 23:39:26,129 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-11 23:39:41,477 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplicationTests in 15.956 seconds (JVM running for 21.746)
+2022-07-11 23:40:36,272 INFO myapp.ticket.Customer.CustomerService [main] Booking : null
+2022-07-11 23:43:28,761 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 1.8.0_202 on BasTz with PID 2600 (C:\Users\BasTz\IdeaProjects\Ticket\target\classes started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-11 23:43:28,766 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-11 23:43:28,767 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-11 23:43:35,991 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 7.959 seconds (JVM running for 10.521)
+2022-07-11 23:43:46,775 INFO myapp.ticket.Customer.CustomerService [main] Booking : null
+2022-07-12 00:08:12,452 INFO myapp.ticket.Customer.CustomerService [main] Booking : null
+2022-07-12 00:09:32,891 INFO myapp.ticket.Customer.CustomerService [main] Booking : null
+2022-07-12 00:09:48,726 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 1.8.0_202 on BasTz with PID 16400 (C:\Users\BasTz\IdeaProjects\Ticket\target\classes started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-12 00:09:48,731 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-12 00:09:48,732 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-12 00:09:55,034 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 7.015 seconds (JVM running for 9.557)
+2022-07-12 00:10:04,495 INFO myapp.ticket.Customer.CustomerService [main] Booking : null
+2022-07-12 00:11:46,044 INFO myapp.ticket.Customer.CustomerService [main] Booking : null
+2022-07-12 00:13:17,996 INFO myapp.ticket.Customer.CustomerService [main] Booking : null
+2022-07-12 00:13:41,308 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 1.8.0_202 on BasTz with PID 6364 (C:\Users\BasTz\IdeaProjects\Ticket\target\classes started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-12 00:13:41,314 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-12 00:13:41,315 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-12 00:13:46,581 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 6.005 seconds (JVM running for 8.739)
+2022-07-12 00:13:58,117 INFO myapp.ticket.Customer.CustomerService [main] Booking : null
+2022-07-12 00:14:32,327 INFO myapp.ticket.Customer.CustomerService [main] Booking : null
+2022-07-12 00:15:18,912 INFO myapp.ticket.Customer.CustomerService [main] Booking : null
+2022-07-12 00:15:42,055 INFO myapp.ticket.Customer.CustomerService [main] Booking : null
+2022-07-12 00:17:48,514 INFO myapp.ticket.Customer.CustomerService [main] Booking : null
+2022-07-12 00:18:13,850 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 1.8.0_202 on BasTz with PID 14892 (C:\Users\BasTz\IdeaProjects\Ticket\target\classes started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-12 00:18:13,855 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-12 00:18:13,856 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-12 00:18:18,527 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 5.38 seconds (JVM running for 7.646)
+2022-07-12 00:19:07,980 INFO myapp.ticket.Customer.CustomerService [main] Booking : null
+2022-07-12 00:19:51,299 INFO myapp.ticket.Customer.CustomerService [main] Booking : null
+2022-07-12 00:20:34,439 INFO myapp.ticket.Customer.CustomerService [main] Booking : null
+2022-07-12 00:21:39,988 INFO myapp.ticket.Customer.CustomerService [main] Booking : null
+2022-07-12 00:22:27,242 INFO myapp.ticket.Customer.CustomerService [main] Booking : null
+2022-07-12 00:23:58,976 INFO myapp.ticket.Customer.CustomerService [main] Booking : null
+2022-07-12 00:24:27,941 INFO myapp.ticket.Customer.CustomerService [main] Booking : null
+2022-07-12 00:24:48,789 INFO myapp.ticket.Customer.CustomerService [main] Booking : null
+2022-07-12 00:25:09,455 INFO myapp.ticket.Customer.CustomerService [main] Booking : null
+2022-07-12 00:25:33,611 INFO myapp.ticket.Customer.CustomerService [main] Booking : null
+2022-07-12 00:25:56,128 INFO myapp.ticket.Customer.CustomerService [main] Booking : null
+2022-07-12 00:29:00,223 INFO myapp.ticket.Customer.CustomerService [main] Booking : null
+2022-07-12 00:35:30,317 INFO myapp.ticket.Customer.CustomerService [main] Booking : null
+2022-07-12 00:38:24,474 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 1.8.0_202 on BasTz with PID 14920 (C:\Users\BasTz\IdeaProjects\Ticket\target\classes started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-12 00:38:24,479 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-12 00:38:24,480 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-12 00:38:29,368 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 5.558 seconds (JVM running for 7.272)
+2022-07-12 00:38:45,160 INFO myapp.ticket.Customer.CustomerService [main] Booking : null
+2022-07-12 00:41:36,855 INFO myapp.ticket.Customer.CustomerService [main] Booking : null
+2022-07-12 00:42:39,203 INFO myapp.ticket.Customer.CustomerService [main] Booking : null
+2022-07-12 01:11:12,132 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 1.8.0_202 on BasTz with PID 17700 (C:\Users\BasTz\IdeaProjects\Ticket\target\classes started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-12 01:11:12,139 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-12 01:11:12,140 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-12 01:11:25,026 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 14.218 seconds (JVM running for 17.563)
+2022-07-12 01:11:31,002 INFO myapp.ticket.Customer.CustomerService [http-nio-8080-exec-3] Cancel Booking : Row = A : Col = 5 : Movie = MOVIE-2 : Theater = THEATER-2 : Showtime = 2022-07-10 20:00:00.0
+2022-07-12 01:12:50,256 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 1.8.0_202 on BasTz with PID 7104 (C:\Users\BasTz\IdeaProjects\Ticket\target\classes started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-12 01:12:50,261 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-12 01:12:50,263 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-12 01:12:55,063 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 5.462 seconds (JVM running for 7.05)
+2022-07-12 01:13:01,845 INFO myapp.ticket.Customer.CustomerService [http-nio-8080-exec-2] Cancel Booking At [ Seat = A5 : Movie = MOVIE-2 : Theater = THEATER-2 : Showtime = 2022-07-10 20:00:00.0 ]
+2022-07-12 01:14:55,105 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 1.8.0_202 on BasTz with PID 19140 (C:\Users\BasTz\IdeaProjects\Ticket\target\classes started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-12 01:14:55,113 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-12 01:14:55,134 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-12 01:15:04,177 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 10.114 seconds (JVM running for 12.465)
+2022-07-12 01:15:59,002 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 1.8.0_202 on BasTz with PID 17828 (C:\Users\BasTz\IdeaProjects\Ticket\target\classes started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-12 01:15:59,013 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-12 01:15:59,015 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-12 01:16:07,956 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 9.992 seconds (JVM running for 13.901)
+2022-07-12 01:16:10,713 INFO myapp.ticket.Customer.CustomerService [http-nio-8080-exec-2] Booking : Customer(id=5, row=A, col=9, showtime=Showtime(id=1, theater=null, movie=null, datetime=null))
+2022-07-12 01:19:36,600 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 1.8.0_202 on BasTz with PID 15840 (C:\Users\BasTz\IdeaProjects\Ticket\target\classes started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-12 01:19:36,604 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-12 01:19:36,605 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-12 01:19:40,868 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 4.808 seconds (JVM running for 6.455)
+2022-07-12 01:19:49,095 INFO myapp.ticket.Customer.CustomerService [http-nio-8080-exec-1] Booking At [ Seat = A9 : Movie = MOVIE-1 : Theater = THEATER-1 : Showtime = 2022-07-10 20:00:00.0 ]
+2022-07-12 01:20:11,053 INFO myapp.ticket.Customer.CustomerService [http-nio-8080-exec-4] Booking At [ Seat = J5 : Movie = MOVIE-2 : Theater = THEATER-1 : Showtime = 2022-07-10 11:00:00.0 ]
+2022-07-12 01:20:33,083 INFO myapp.ticket.Customer.CustomerService [http-nio-8080-exec-6] Cancel Booking At [ Seat = A5 : Movie = MOVIE-2 : Theater = THEATER-2 : Showtime = 2022-07-10 20:00:00.0 ]
+2022-07-12 01:24:40,165 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 1.8.0_202 on BasTz with PID 15676 (C:\Users\BasTz\IdeaProjects\Ticket\target\classes started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-12 01:24:40,170 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.1, Spring v5.3.21
+2022-07-12 01:24:40,172 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-12 01:24:50,009 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 10.958 seconds (JVM running for 12.665)
+2022-07-12 01:49:50,900 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 1.8.0_202 on BasTz with PID 6880 (C:\Users\BasTz\IdeaProjects\Ticket\target\classes started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-12 01:49:50,905 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-12 01:49:56,185 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 5.917 seconds (JVM running for 7.936)
+2022-07-12 01:50:06,514 INFO myapp.ticket.Customer.CustomerService [http-nio-8080-exec-1] Cancel Booking At [ Seat = A5 : Movie = MOVIE-2 : Theater = THEATER-2 : Showtime = 2022-07-10 20:00:00.0 ]
+2022-07-12 01:50:08,140 INFO myapp.ticket.Customer.CustomerService [http-nio-8080-exec-3] Booking At [ Seat = J5 : Movie = MOVIE-2 : Theater = THEATER-1 : Showtime = 2022-07-10 11:00:00.0 ]
+2022-07-12 01:54:00,017 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 1.8.0_202 on BasTz with PID 4672 (C:\Users\BasTz\IdeaProjects\Ticket\target\classes started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-12 01:54:00,023 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-12 01:54:06,718 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 8.851 seconds (JVM running for 12.511)
+2022-07-12 01:54:13,298 INFO myapp.ticket.Customer.CustomerService [http-nio-8080-exec-1] Booking At [ Seat = J5 : Movie = MOVIE-2 : Theater = THEATER-1 : Showtime = 2022-07-10 11:00:00.0 ]
+2022-07-12 01:54:14,999 INFO myapp.ticket.Customer.CustomerService [http-nio-8080-exec-3] Cancel Booking At [ Seat = A5 : Movie = MOVIE-2 : Theater = THEATER-2 : Showtime = 2022-07-10 20:00:00.0 ]
+2022-07-12 01:56:23,585 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 1.8.0_202 on BasTz with PID 19052 (C:\Users\BasTz\IdeaProjects\Ticket\target\classes started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-12 01:56:23,591 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-12 01:56:27,856 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 4.819 seconds (JVM running for 6.644)
+2022-07-12 01:57:00,658 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 1.8.0_202 on BasTz with PID 19268 (C:\Users\BasTz\IdeaProjects\Ticket\target\classes started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-12 01:57:00,676 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-12 01:57:05,975 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 5.869 seconds (JVM running for 7.935)
+2022-07-12 01:58:02,208 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 1.8.0_202 on BasTz with PID 11356 (C:\Users\BasTz\IdeaProjects\Ticket\target\classes started by BasTz in C:\Users\BasTz\IdeaProjects\Ticket)
+2022-07-12 01:58:02,214 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-12 01:58:07,821 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 6.265 seconds (JVM running for 8.297)
+2022-07-12 01:58:20,637 INFO myapp.ticket.Customer.CustomerService [http-nio-8080-exec-1] Cancel Booking At [ Seat = A5 : Movie = MOVIE-2 : Theater = THEATER-2 : Showtime = 2022-07-10 20:00:00.0 ]
+2022-07-12 01:58:22,315 INFO myapp.ticket.Customer.CustomerService [http-nio-8080-exec-3] Booking At [ Seat = J5 : Movie = MOVIE-2 : Theater = THEATER-1 : Showtime = 2022-07-10 11:00:00.0 ]

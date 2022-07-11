@@ -1,6 +1,5 @@
 package myapp.ticket.Theater;
 
-import myapp.ticket.Showtime.Showtime;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,8 +23,11 @@ public class TheaterService {
     }
 
     public String AddTheater(Theater theater) {
-        theaterRepository.save(theater);
-        return "Save successful";
+        if(theater == null) return "Save Unsuccessful Data is Null";
+        else{
+            theaterRepository.save(theater);
+            return "Save successful";
+        }
     }
 
     public String UpdateTheater(int id, Theater theater) {

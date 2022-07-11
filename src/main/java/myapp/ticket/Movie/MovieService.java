@@ -1,6 +1,5 @@
 package myapp.ticket.Movie;
 
-import myapp.ticket.Theater.Theater;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,8 +26,11 @@ public class MovieService {
 
 
     public String AddMovie(Movie movies) {
-        movieRepository.save(movies);
-        return "Save successful";
+        if(movies == null) return "Save Unsuccessful Data is Null";
+        else{
+            movieRepository.save(movies);
+            return "Save successful";
+        }
     }
 
     public String UpdateMovie(int id, Movie movies) {

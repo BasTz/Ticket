@@ -1,7 +1,5 @@
 package myapp.ticket.Customer;
 
-import myapp.ticket.Movie.Movie;
-import myapp.ticket.Showtime.Showtime;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

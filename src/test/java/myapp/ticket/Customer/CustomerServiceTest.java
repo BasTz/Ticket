@@ -1,8 +1,5 @@
 package myapp.ticket.Customer;
 
-import myapp.ticket.Showtime.Showtime;
-import myapp.ticket.Showtime.ShowtimeRepository;
-import myapp.ticket.Showtime.ShowtimeService;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
@@ -12,7 +9,6 @@ import org.mockito.MockitoAnnotations;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.mockito.junit.jupiter.MockitoSettings;
 import org.mockito.quality.Strictness;
-import org.mockito.stubbing.Answer;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.client.RestTemplate;
 
@@ -20,10 +16,7 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.Optional;
 
-import static org.junit.jupiter.api.Assertions.*;
-import static org.mockito.ArgumentMatchers.anyInt;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
@@ -37,9 +30,7 @@ class CustomerServiceTest {
     @Mock
     private CustomerRepository customerRepository = mock(CustomerRepository.class);
 
-    List<Customer> customers = new ArrayList<>();
-
-    Customer customer = new Customer();
+     List<Customer> customers = new ArrayList<>();
 
     RestTemplate restTemplate = new RestTemplate();
     @BeforeEach
@@ -109,7 +100,7 @@ class CustomerServiceTest {
     }
 
     @Test
-    @DisplayName("Booking_Bookingsuccessful")
+    @DisplayName("Booking_Booking-successful")
     void addCustomer_Book() {
         Customer customer1 = new Customer(customers.get(0).getId(),customers.get(0).getRow(),customers.get(0).getCol(),customers.get(0).getShowtime());
         customer1.setId(10);

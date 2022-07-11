@@ -1,5 +1,7 @@
 package myapp.ticket.Customer;
 
+import myapp.ticket.Showtime.Showtime;
+import myapp.ticket.Showtime.ShowtimeRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,6 +16,9 @@ public class CustomerService {
     private static final Logger logger = LoggerFactory.getLogger(CustomerService.class);
     @Autowired
     private CustomerRepository customerRepository;
+
+    @Autowired
+    private ShowtimeRepository showtimeRepository;
 
 
     public List<Customer> getAllCustomer() {
@@ -59,8 +64,10 @@ public class CustomerService {
                     }
                 }
                 customerRepository.save(customer);
-                Customer myCustomer = customerRepository.findById(customer.getId());
-                logger.info("Booking : {}", myCustomer);
+                Showtime showtime = showtimeRepository.findById(customer.getShowtime().getId());
+                //logger.info("Booking : {}",customer);
+                logger.info("Booking At [ Seat = {}{} : Movie = {} : Theater = {} : Showtime = {} ]",customer.getRow(),customer.getCol(),
+                        showtime.getMovie().getName(),showtime.getTheater().getName(),showtime.getDatetime());
                 return "Booking successful";
             } else {
                 return "Col can only have 1-10";
@@ -121,7 +128,8 @@ public class CustomerService {
         Customer myCustomer = customerRepository.findById(id);
         if(myCustomer != null){
             customerRepository.deleteById(id);
-            logger.info("Cancel Booking : {}",myCustomer);
+            logger.info("Cancel Booking At [ Seat = {}{} : Movie = {} : Theater = {} : Showtime = {} ]",myCustomer.getRow(),myCustomer.getCol(),
+                    myCustomer.getShowtime().getMovie().getName(),myCustomer.getShowtime().getTheater().getName(),myCustomer.getShowtime().getDatetime());
             return "Delete successful";
         }
         else return "Not Delete : Data not available";
