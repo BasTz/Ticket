@@ -1,5 +1,8 @@
 package myapp.ticket.Customer;
 
+import myapp.ticket.Showtime.Showtime;
+import myapp.ticket.Showtime.ShowtimeRepository;
+import myapp.ticket.Showtime.ShowtimeService;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
@@ -30,7 +33,12 @@ class CustomerServiceTest {
     @Mock
     private CustomerRepository customerRepository = mock(CustomerRepository.class);
 
-     List<Customer> customers = new ArrayList<>();
+    @Mock
+    private ShowtimeRepository showtimeRepository = mock(ShowtimeRepository.class);
+
+    List<Customer> customers = new ArrayList<>();
+
+    List<Showtime> showtimes = new ArrayList<>();
 
     RestTemplate restTemplate = new RestTemplate();
     @BeforeEach
@@ -43,6 +51,12 @@ class CustomerServiceTest {
 
         assert customer != null;
         Collections.addAll(customers, customer);
+
+        ResponseEntity<Showtime[]> response1 = restTemplate.getForEntity(new URL("http://localhost:8080/showtime").toString(), Showtime[].class);
+        Showtime[] showtime = response1.getBody();
+
+        assert showtime != null;
+        Collections.addAll(showtimes, showtime);
     }
 
     @Test
@@ -100,7 +114,7 @@ class CustomerServiceTest {
     }
 
     @Test
-    @DisplayName("Booking_Booking-successful")
+    @DisplayName("Booking_Bookingsuccessful")
     void addCustomer_Book() {
         Customer customer1 = new Customer(customers.get(0).getId(),customers.get(0).getRow(),customers.get(0).getCol(),customers.get(0).getShowtime());
         customer1.setId(10);
@@ -109,6 +123,7 @@ class CustomerServiceTest {
 
         when(customerRepository.save(Mockito.any(Customer.class))).thenAnswer(i -> i.getArguments()[0]);
         when(customerRepository.findAll()).thenReturn(customers);
+        when(showtimeRepository.findById(customer1.getShowtime().getId())).thenReturn(showtimes.get(0));
 
         Assertions.assertEquals(customerService.AddCustomer(customer1), "Booking successful");
     }

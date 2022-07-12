@@ -41,7 +41,6 @@ class ShowtimeServiceTest {
         ResponseEntity<Showtime[]> response = restTemplate.getForEntity(new URL("http://localhost:8080/showtime").toString(), Showtime[].class);
         Showtime[] showtime = response.getBody();
 
-
         assert showtime != null;
         Collections.addAll(showtimes, showtime);
     }

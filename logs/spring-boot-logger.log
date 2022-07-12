@@ -288,3 +288,13 @@
 2022-07-12 01:58:07,821 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 6.265 seconds (JVM running for 8.297)
 2022-07-12 01:58:20,637 INFO myapp.ticket.Customer.CustomerService [http-nio-8080-exec-1] Cancel Booking At [ Seat = A5 : Movie = MOVIE-2 : Theater = THEATER-2 : Showtime = 2022-07-10 20:00:00.0 ]
 2022-07-12 01:58:22,315 INFO myapp.ticket.Customer.CustomerService [http-nio-8080-exec-3] Booking At [ Seat = J5 : Movie = MOVIE-2 : Theater = THEATER-1 : Showtime = 2022-07-10 11:00:00.0 ]
+2022-07-12 09:14:33,005 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 18.0.1.1 on MacBook-Pro-khxng-Chulita.local with PID 66184 (/Users/bumbim/IdeaProjects/Ticket/target/classes started by bumbim in /Users/bumbim/IdeaProjects/Ticket)
+2022-07-12 09:14:33,008 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-12 09:14:36,930 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 4.414 seconds (JVM running for 6.955)
+2022-07-12 09:24:41,386 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 18.0.1.1 on MacBook-Pro-khxng-Chulita.local with PID 68862 (/Users/bumbim/IdeaProjects/Ticket/target/classes started by bumbim in /Users/bumbim/IdeaProjects/Ticket)
+2022-07-12 09:24:41,396 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-12 09:25:13,866 INFO org.springframework.boot.StartupInfoLogger [main] Starting TicketApplication using Java 18.0.1.1 on MacBook-Pro-khxng-Chulita.local with PID 68919 (/Users/bumbim/IdeaProjects/Ticket/target/classes started by bumbim in /Users/bumbim/IdeaProjects/Ticket)
+2022-07-12 09:25:13,870 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-07-12 09:25:19,373 INFO org.springframework.boot.StartupInfoLogger [main] Started TicketApplication in 6.172 seconds (JVM running for 7.804)
+2022-07-12 09:30:54,478 INFO myapp.ticket.Customer.CustomerService [main] Booking At [ Seat = C5 : Movie = MOVIE-1 : Theater = THEATER-1 : Showtime = Sun Jul 10 20:00:00 ICT 2022 ]
+2022-07-12 09:31:14,621 INFO myapp.ticket.Customer.CustomerService [main] Booking At [ Seat = C5 : Movie = MOVIE-1 : Theater = THEATER-1 : Showtime = Sun Jul 10 20:00:00 ICT 2022 ]

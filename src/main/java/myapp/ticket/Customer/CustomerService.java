@@ -65,7 +65,6 @@ public class CustomerService {
                 }
                 customerRepository.save(customer);
                 Showtime showtime = showtimeRepository.findById(customer.getShowtime().getId());
-                //logger.info("Booking : {}",customer);
                 logger.info("Booking At [ Seat = {}{} : Movie = {} : Theater = {} : Showtime = {} ]",customer.getRow(),customer.getCol(),
                         showtime.getMovie().getName(),showtime.getTheater().getName(),showtime.getDatetime());
                 return "Booking successful";
