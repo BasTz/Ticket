@@ -38,8 +38,17 @@ class ShowtimeServiceTest {
     public void setUp() throws Exception{
         MockitoAnnotations.openMocks(this);
 
-        ResponseEntity<Showtime[]> response = restTemplate.getForEntity(new URL("http://localhost:8080/showtime").toString(), Showtime[].class);
-        Showtime[] showtime = response.getBody();
+        Showtime[] showtime;
+        try {
+            ResponseEntity<Showtime[]> response = restTemplate.getForEntity(new URL("http://localhost:8080/showtime").toString(), Showtime[].class);
+            showtime = response.getBody();
+        }
+        catch (Exception e){
+            showtime = new Showtime[3];
+            showtime[0] = new Showtime(1, new Theater(1, "THEATER-1"), new Movie(1, "MOVIE-1"), setDate(2022, 7, 13, 20));
+            showtime[1] = new Showtime(2, new Theater(2, "THEATER-2"), new Movie(2, "MOVIE-2"), setDate(2022, 7, 13, 20));
+            showtime[2] = new Showtime(3, new Theater(1, "THEATER-1"), new Movie(2, "MOVIE-1"), setDate(2022, 7, 13, 11));
+        }
 
         assert showtime != null;
         Collections.addAll(showtimes, showtime);
@@ -63,7 +72,7 @@ class ShowtimeServiceTest {
         Showtime showtime1 = new Showtime(showtimes.get(0).getId(),showtimes.get(0).getTheater(),showtimes.get(0).getMovie(),showtimes.get(0).getDatetime());
         showtime1.setId(0);
         showtime1.setTheater(new Theater(1, null));
-        showtime1.setMovie(new Movie(2, null));
+        showtime1.setMovie(new Movie(5, null));
 
         when(showtimeRepository.save(Mockito.any(Showtime.class))).thenAnswer(i -> i.getArguments()[0]);
         when(showtimeRepository.findAll()).thenReturn(showtimes);
