@@ -1,6 +1,11 @@
 # Ticket
 ## Docker Run Command
 
+#### Pull image from Github
+```
+docker pull ghcr.io/bastz/ticket:master 
+```
+
 #### If you don't have network `ticket-api` please create it first
 ```
 docker network create ticket-api  
